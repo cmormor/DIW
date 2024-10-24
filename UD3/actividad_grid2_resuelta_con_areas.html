@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #container{
+        display:grid;
+        grid-template-rows: 2fr 2fr 2fr 1fr 1fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr;
+        grid-gap:2%;
+        width:100%;
+        height:100vh;
+        grid-template-areas:
+        "cabecera cabecera cabecera cabecera cabecera cabecera"
+        ". . foto foto . . "
+        "menu1 menu2 menu3 menu3 menu3 publi"
+        "menu1 menu4 menu5 menu6 menu7 publi"
+        "menu1 menu4 menu5 menu6 menu7 redes"
+        "menu1 menu4 pie pie pie pie"
+    }
+    #cabecera{
+        grid-area:cabecera;
+        background-color:aqua;
+    }
+    #foto{
+        grid-area:foto;
+        background-color:red;
+    }
+    #menu1{
+        grid-area:menu1;
+        background-color:blue;
+    }
+    #menu2{
+        grid-area:menu2;
+        background-color:purple;
+    }
+    #menu3{
+        grid-area:menu3;
+        background-color:orange;
+    }
+    #menu4{
+        grid-area:menu4;
+        background-color:green;
+    }
+    #menu5{
+        grid-area:menu5;
+        background-color:brown;
+    }
+    #menu6{
+        grid-area:menu6;
+        background-color:yellow;
+    }
+    #menu7{
+        grid-area:menu7;
+        background-color:black;
+    }
+    #publi{
+        grid-area:publi;
+        background-color:chocolate;
+    }
+    #redes{
+        grid-area:redes;
+        background-color:fuchsia;
+    }
+    #pie{
+        grid-area:pie;
+        background-color:rosybrown;
+    }
+    
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="cabecera">
+
+        </div>
+        <div id="foto">
+
+        </div>
+        <div id="menu1">
+
+        </div>
+        <div id="menu2">
+
+        </div>
+        <div id="menu3">
+
+        </div>
+        <div id="menu4">
+
+        </div>
+        <div id="menu5">
+
+        </div>
+        <div id="menu6">
+
+        </div>
+        <div id="menu7">
+
+        </div>
+        <div id="publi">
+
+        </div>
+        <div id="redes">
+
+        </div>
+        <div id="pie">
+
+        </div>
+    </div>
+</body>
+</html>
